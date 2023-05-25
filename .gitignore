@@ -1,0 +1,4 @@
+*.suo
+*.dll
+*.idea
+node_modules

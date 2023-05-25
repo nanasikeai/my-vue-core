@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<script src="./dist/vue"></script>
+<body>
+    <div id="app" style="color: red;font-size: 30px"></div>
+    <script>
+        let vm = new Vue({
+            el: '#app',
+            data: {
+                firstname: '杨',
+                lastname: '大杨',
+
+            },
+        })
+        // vm.$watch(()=>vm.lastname, (newValue, oldValue) => {
+        //     console.log(newValue, oldValue)
+        // })
+        //
+        // setTimeout(() =>{
+        //     vm.lastname = 'ha8n'
+        // },1500)
+    </script>
+</body>
+</html>
